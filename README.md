@@ -11,4 +11,9 @@ La implementación es sencilla, lo importante es: que en /config se encuentran d
 Para probar este ejemplo, se necesita tener instalado y activado el XAMPP con sus módulos Apache y MySQL. Se recomienda utilizar NetBeans para la administración del directorio de archivos. El archivo vendor.zip se debe descomprimir. Descarga opcional: http://www.mediafire.com/file/t6bylqytgx3wz8r/cakerbac.zip *Ademas se adjunta una base de datos de prueba en el directorio bd con algunos registros de prueba.
 
 # Version ONLINE
-Para observar el ejemplo sin necesidad de instalar: www.reflejo.epizy.com/cakerbac
+Para observar el ejemplo sin necesidad de instalar: www.reflejo.epizy.com/cakerbac  
+Usuarios:  
+Cristian_Lopez  
+asd1234  
+Cocinero_master  
+asd1234
