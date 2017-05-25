@@ -1,51 +1,14 @@
-# CakePHP Application Skeleton
+# Roles-CakePHP3
+Como crear un sistema de roles en CakePHP3 para que distintos usuarios tengan acceso a distintas funciones.
 
-[![Build Status](https://img.shields.io/travis/cakephp/app/master.svg?style=flat-square)](https://travis-ci.org/cakephp/app)
-[![License](https://img.shields.io/packagist/l/cakephp/app.svg?style=flat-square)](https://packagist.org/packages/cakephp/app)
+# Resumen
+Como implementar un Control de Acceso basado en Roles en CakePHP3, gracias a un plugin: www.github.com/CakeDC/users En el ejemplo de este repositorio se implementa el plugin con la finalidad de tener usuarios con rol de usuario los cuales solo pueden tener acceso a las recetas e ingredientes y otros usuarios con el rol de cocinero, los cuales pueden además editar, agregar o modificar recetas y/o ingredientes.
 
-A skeleton for creating applications with [CakePHP](http://cakephp.org) 3.x.
+# A tener en cuenta
+La implementación es sencilla, lo importante es: que en /config se encuentran dos archivos permissions.php y users.php los cuales establecen la configuración de los usuarios y sus permisos. Al implementar un plugin, los modelos, controlador y templates(vistas) de Usuarios no están por defecto en el directorio /src sino en la carpeta vendor/cakeDC
 
-The framework source code can be found here: [cakephp/cakephp](https://github.com/cakephp/cakephp).
+# Instalacion
+Para probar este ejemplo, se necesita tener instalado y activado el XAMPP con sus módulos Apache y MySQL. Se recomienda utilizar NetBeans para la administración del directorio de archivos. El archivo vendor.zip se debe descomprimir. Descarga opcional: http://www.mediafire.com/file/t6bylqytgx3wz8r/cakerbac.zip *Ademas se adjunta una base de datos de prueba en el directorio bd con algunos registros de prueba.
 
-## Installation
-
-1. Download [Composer](http://getcomposer.org/doc/00-intro.md) or update `composer self-update`.
-2. Run `php composer.phar create-project --prefer-dist cakephp/app [app_name]`.
-
-If Composer is installed globally, run
-
-```bash
-composer create-project --prefer-dist cakephp/app
-```
-
-In case you want to use a custom app dir name (e.g. `/myapp/`):
-
-```bash
-composer create-project --prefer-dist cakephp/app myapp
-```
-
-You can now either use your machine's webserver to view the default home page, or start
-up the built-in webserver with:
-
-```bash
-bin/cake server -p 8765
-```
-
-Then visit `http://localhost:8765` to see the welcome page.
-
-## Update
-
-Since this skeleton is a starting point for your application and various files
-would have been modified as per your needs, there isn't a way to provide
-automated upgrades, so you have to do any updates manually.
-
-## Configuration
-
-Read and edit `config/app.php` and setup the `'Datasources'` and any other
-configuration relevant for your application.
-
-## Layout
-
-The app skeleton uses a subset of [Foundation](http://foundation.zurb.com/) CSS
-framework by default. You can, however, replace it with any other library or
-custom styles.
+# Version ONLINE
+Para observar el ejemplo sin necesidad de instalar: www.reflejo.epizy.com/cakerbac
