@@ -13,7 +13,7 @@ Para probar este ejemplo, se necesita tener instalado y activado el XAMPP con su
 # Version ONLINE
 Para observar el ejemplo sin necesidad de instalar: www.reflejo.epizy.com/cakerbac  
 Usuarios:  
-Cristian_Lopez  
+Rodrigo_Lopez  
 asd1234  
 Cocinero_master  
 asd1234
